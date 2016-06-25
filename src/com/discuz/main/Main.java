@@ -9,6 +9,7 @@ public class Main extends JavaPlugin {
 
     public void onLoad() {
         System.out.println("23333启动");
+        System.out.println("测试");
     }
 
     public void onEnable() {
