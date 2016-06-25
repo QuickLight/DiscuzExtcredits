@@ -5,10 +5,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 /**
  * Created by Administrator on 2016/6/25 0025.
  */
-public class Main extends JavaPlugin{
+public class Main extends JavaPlugin {
 
     public void onLoad() {
-        super.onLoad();
+        System.out.println("23333启动");
     }
 
     public void onEnable() {
