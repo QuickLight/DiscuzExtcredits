@@ -1,0 +1,9 @@
+name: discuz
+main: com.discuz.main.Main
+version: 0.1Beta
+prefix: 论坛积分
+commands:
+  DiscuzExtcredits:
+    aliases: [discuz,dz,de]
+    permission: Discuz.use
+    permission-message: §c[论坛积分]§4你没有权限这么做

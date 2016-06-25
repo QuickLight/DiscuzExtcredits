@@ -1,4 +1,4 @@
-package com.discuz;
+package com.discuz.main;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
