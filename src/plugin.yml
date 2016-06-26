@@ -4,6 +4,26 @@ version: 0.1Beta
 prefix: 论坛积分
 commands:
   DiscuzExtcredits:
-    aliases: [discuz,dz,de]
+    aliases: [discuz,de]
     permission: Discuz.use
     permission-message: §c[论坛积分]§4你没有权限这么做
+    usage: |
+      §1§m  §2§m  §3§m  §4§m  §5§m  §6§m  §7§m  §8§m  §9§m  §0§m  §6§l[§a§l论坛积分§6§l]§0§m  §9§m  §8§m  §7§m  §6§m  §5§m  §4§m  §3§m  §2§m  §1§m
+      §a§l/<command> credit       §d§l-§e§l 点券主要功能
+      §d§l-§b§l 可用于查询点卷,增加或更改玩家点券
+      §a§l/<command> creditshop    §d§l-§e§l 商店主要功能
+      §d§l-§b§l 可用于系统商店，兑换，出售和收购
+      §a§l/<command> vipshop       §d§l-§e§l 会员主要功能
+      §d§l-§b§l 可用于VIP购买，续费以及更换
+      §a§l/<command> cdk       §d§l-§e§l 兑奖主要功能
+      §d§l-§b§l 可用于兑换或创建删除CDK
+      §a§l/<command> recharge        §d§l-§e§l 领奖主要功能
+      §d§l-§b§l 可用于领取充值奖励
+      §a§l/<command> lottery        §d§l-§e§l 抽奖主要功能
+      §d§l-§b§l 可用于缥缈币和缥缈点抽奖
+permissions:
+  discuz.credit.me: {default: true}
+  discuz.credit.select: {default: op}
+  discuz.credit.add: {default: op}
+  discuz.credit.take: {default: op}
+  discuz.credit.clear: {default: op}
